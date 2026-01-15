@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ptotaram-6dc6decb-fe45-4b95-809d-16e846ec50e1/auth": [
+        "libs/auth/src/index.ts"
+      ],
+      "@ptotaram-6dc6decb-fe45-4b95-809d-16e846ec50e1/data": [
+        "libs/data/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
