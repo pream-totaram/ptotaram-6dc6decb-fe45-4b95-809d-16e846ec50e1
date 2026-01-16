@@ -4,3 +4,4 @@ export * from './lib/entities/role.entity';
 export * from './lib/entities/task.entity';
 export * from './lib/entities/organization.entity';
 export * from './lib/entities/permission.entity';
+export * from './lib/services/user.service';
